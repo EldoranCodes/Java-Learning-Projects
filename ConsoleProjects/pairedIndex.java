@@ -19,6 +19,6 @@ public class pairedIndex {
     System.out.println("Email: " + Email[index]);
     System.out.println("Username: " + Username[index]);
     System.out.println("Password: " + Password[index]);
-
+    sc.close();
   }
 }
