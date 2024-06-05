@@ -1,3 +1,4 @@
+package Fundamentals;
 import java.util.Scanner;
 public class AuthenticationSimulation {
     public static void main(String[] args) {
