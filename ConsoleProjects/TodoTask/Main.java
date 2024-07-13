@@ -23,7 +23,6 @@ public class Main {
             System.out.print("Enter a number: ");
             int choice = sc.nextInt();
             sc.nextLine();
-
             switch (choice) {
                 case 1:
                     taskManager.addtask();
@@ -48,7 +47,14 @@ public class Main {
                 System.out.println("Invalid input");
                     break;
             }
-            sc.close();
-        }        
+
+          
+
+            
+        
+            
+           
+        }   
+        sc.close();     
     }    
 }
