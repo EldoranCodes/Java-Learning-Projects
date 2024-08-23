@@ -8,7 +8,7 @@ public abstract class Employee{
 
     public abstract double calculateSalary();
 
-    public void setEmployeeID(int newID){
+    public void setID(int newID){
         this.employeeID = newID;
     }
 
@@ -18,5 +18,22 @@ public abstract class Employee{
     public void setName(String newName){
         this.name = newName;
     }
-    public 
+
+    public String getName(){
+        return name;
+    }
+    
+    public void setDepartment(String newDepartment){
+        this.department = newDepartment;
+    }
+    public String getDepartment(){
+        return department;
+    }
+    @Override
+    public String toString(){
+        return "ID = "+ employeeID + " Name = "+name + " Department = "+ department;
+         
+    }
+
+
 }
