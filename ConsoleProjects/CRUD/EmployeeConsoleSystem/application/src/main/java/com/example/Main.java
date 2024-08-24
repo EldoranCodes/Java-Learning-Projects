@@ -7,7 +7,7 @@ public class Main {
         boolean exit = false;
 
         
-        while (exit) {
+        while (!exit) {
             System.out.println("Employee Management App");
 
             System.out.println();
