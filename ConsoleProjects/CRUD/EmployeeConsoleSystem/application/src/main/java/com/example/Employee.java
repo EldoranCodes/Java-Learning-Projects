@@ -5,9 +5,12 @@ public abstract class Employee{
     private String name;
     private String department;
     
-
+    // abstract methods
     public abstract double calculateSalary();
+    public abstract  String toString();
 
+
+    //setters and getters
     public void setID(int newID){
         this.employeeID = newID;
     }
@@ -29,11 +32,7 @@ public abstract class Employee{
     public String getDepartment(){
         return department;
     }
-    @Override
-    public String toString(){
-        return "ID = "+ employeeID + " Name = "+name + " Department = "+ department;
-         
-    }
+  
 
 
 }

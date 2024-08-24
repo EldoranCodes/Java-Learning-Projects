@@ -132,4 +132,27 @@ public class EmployeeManager {
         
     }
     
+
+    public void FindEmployeeByID(){
+        System.out.print("Enter an Employee ID: ");
+        int id = s.nextInt();
+        s.nextLine();
+        
+       for (Employee e : listofEmployees) {
+            if (e.getID() == id){
+                System.out.println(e);
+                return;
+            }
+       }
+       System.out.println("Employee not found!");
+    }
+
+    public boolean isIdExist(int id){
+        for (Employee e : listofEmployees) {
+            if(e.getID() == id){
+                return true;
+            }
+        }
+        return false;
+    }
 }

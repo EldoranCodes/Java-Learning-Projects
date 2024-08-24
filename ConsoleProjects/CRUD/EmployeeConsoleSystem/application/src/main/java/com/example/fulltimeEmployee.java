@@ -23,5 +23,13 @@ public class fulltimeEmployee extends Employee{
         
         return baseSalary + bonus;
     }
+    @Override
+    public String toString() {
+        // TODO Auto-generated method stub
+
+        return "|EmployeeID:"+getID()+"|Name:"+getName()  +"|Department:"+getDepartment() +"|Base Salary:"+
+        getSalary()+"|Bonus:"+getBonus();
+        
+    }
 
 }
