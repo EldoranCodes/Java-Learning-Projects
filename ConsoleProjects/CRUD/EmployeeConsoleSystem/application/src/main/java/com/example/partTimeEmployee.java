@@ -28,4 +28,11 @@ public class partTimeEmployee extends Employee {
         return hourlyRate * hoursWorked; 
     }
 
+    @Override
+    public String toString() {
+        // TODO Auto-generated method stub
+        return "|EmployeeID:"+getID()+"|Name:"+getName()  +"|Department:"+getDepartment() +"|Hourly Rate:"+
+        getHourlyRate()+"|WorkingHours:"+getHoursWorkPerDay();    
+    }
+
 }
